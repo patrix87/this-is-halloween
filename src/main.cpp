@@ -13,6 +13,8 @@ CRGB leds_b[NUM_LEDS_B];
 #define FRAMES_PER_SECOND 120
 #define GLITTER 32
 
+// Original source: https://github.com/lowell80/HalloweenLights
+
 // http://angrytools.com/gradient/?0_c87d02,20_000000,22_7A16A1,40_510D6E,54_052455,58_000000,100_c87d02,88_69853D,92_000000,34_7a16a1,34_7a16a1,14_B57002,19_000000,82_3A6E2D,65_438034,95_c87d02&0_100,100_100&l_321
 DEFINE_GRADIENT_PALETTE( LowellFall_No6_gp ) {
     0,   135,  53,   1,
